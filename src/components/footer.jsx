@@ -8,26 +8,28 @@ const links = [{name: 'About Us', slug: 'about-us'},
 
 const Footer = () => {
     return (
-        <footer className="container mx-auto px-10 mb-8">
-            <div className="border-t w-full inline-block border-white py-8">
-                <div className="mx:float-left block">
-                    <Link href="/">
-                        <span className="cursor-pointer font-bold text-3xl">
-                            MG Protax Services
-                        </span>
-                    </Link>
-                </div>
-                <div className="md:float-left md:contents">
-                    {links.map((link) => (
-                        <Link key={link.slug} href={`/${link.slug}`}>
-                            <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">
-                                {link.name}
+        <>
+            <footer className="container mx-auto px-10 mb-8">
+                <div className="border-t w-full inline-block border-black py-8">
+                    <div className="mx:float-left block">
+                        <Link href="/">
+                            <span className="cursor-pointer font-bold text-3xl">
+                                MG Protax Services
                             </span>
                         </Link>
-                    ))}  
+                    </div>
+                    <div className="md:float-left md:contents">
+                        {links.map((link) => (
+                            <Link key={link.slug} href={`/${link.slug}`}>
+                                <span className="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
+                                    {link.name}
+                                </span>
+                            </Link>
+                        ))}  
+                    </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </>
     );
 }
 
