@@ -15,7 +15,7 @@ const ServiceInfo = () => {
                 <h1 className="font-bold text-2xl pb-2">
                     {messages.page}
                 </h1>
-                <p className="font-mono">{messages.description}</p>
+                <p className="">{messages.description}</p>
             </div>
         </div>
     );

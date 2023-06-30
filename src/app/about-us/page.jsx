@@ -9,7 +9,7 @@ const AboutMe = () => {
     const messages = aboutUs;
 
     return (
-        <div className="container mx-auto font-mono">
+        <div className="container mx-auto">
         
             <div className="bg-green-500 rounded box-border hover:bg-green-700 duration-500 pt-6 pb-8 pl-5 mb-4">
                 <h1 className="font-bold text-2xl">

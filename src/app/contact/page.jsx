@@ -9,7 +9,7 @@ const ContactUs = () => {
     const messages = contactUs;
 
     return (
-        <div className="container mx-auto font-mono">
+        <div className="container mx-auto">
             <div className="bg-blue-500 rounded box-border hover:bg-blue-700 duration-500 pt-6 pb-8 pl-5 mb-4">
                 <h1 className="font-bold text-2xl text-center">
                     {messages.page}
