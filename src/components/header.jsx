@@ -2,7 +2,7 @@
 import Link from 'next/link';
 
 
-const links = [{name: 'About Us', slug: 'about-us'}, 
+const links = [{name: 'About', slug: 'about-us'}, 
                 {name: 'Contact Us', slug: 'contact'}, 
                 {name: 'Services', slug: 'services'}];
 

@@ -3,6 +3,10 @@
     "mission-statement" :
     {
         "title": "Mission Statement",
-        "description": "MG Protax Mission Statement goes here"
+        "description": "Since my first introduction to tax preparation almost 20 years ago, my goal has been to ensure my community in EastSide San Jose are able to file their tax returns without the obstacles that come with IRS and their ever-changing rules to file."
+    },
+    "history" : {
+        "p-1" : "In 2011, I began my own small business, MG Protax Services, after years of gaining experience and mentorship from my fellow colleagues in the industry. After opening MG Protax, I began to expand my offerings to the community, now including Bookkeeping for our local small business owners, ITIN renewals for US residents and Public Notary for those who need it.",
+        "p-2": "As a certified tax preparer, I ensure to be up to date to IRS’s requirements for tax returns. Rest assured, I will provide the utmost service and ensure the most out of your tax return possible. Call/Text Us to make an appointment for a proper consultation."
     }
 }

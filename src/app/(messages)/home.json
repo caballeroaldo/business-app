@@ -1,0 +1,13 @@
+{
+    "annoucements" : {
+        "p1" : "Welcome to MG Protax Services, Located in San Jose, CA, we offer a variety of services for you and your business ventures",
+        "p2" : "In particular, it is important to know that Tax Season is Still On-Going in our County and in serval others in the State, We can assist you finish your tax returns"        
+    },
+    "offeredServices" : {
+        "firstSer" : "Tax Preparation",
+        "secondSer" : "Bookkeeping",
+        "thirdSer" : "Public Notary",
+        "fourthSer" : "ITIN Renewal"
+    }
+
+}

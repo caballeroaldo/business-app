@@ -2,7 +2,7 @@
 import Link from 'next/link';
 
 
-const links = [{name: 'About Us', slug: 'about-us'}, 
+const links = [{name: 'About', slug: 'about-us'}, 
                 {name: 'Contact Us', slug: 'contact'}, 
                 {name: 'Services', slug: 'services'}];
 
@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <>
             <footer className="container mx-auto px-10 mb-8">
-                <div className="border-t w-full inline-block border-black py-8">
+                <div className=" w-full inline-block border-black py-8">
                     <div className="mx:float-left block">
                         <Link href="/">
                             <span className="cursor-pointer font-bold text-3xl">
