@@ -1,4 +1,6 @@
 import contactUs from "../(messages)/contact-us.json";
+import Image from 'next/image'
+
 
 export const metadata = {
     title: 'Contact Us',
@@ -10,33 +12,51 @@ const ContactUs = () => {
 
     return (
         <div className="container mx-auto">
-            <div className="bg-blue-500 rounded box-border hover:bg-blue-700 duration-500 pt-6 pb-8 pl-5 mb-4">
-                <h1 className="font-bold text-2xl text-center">
-                    {messages.page}
+            <div className="rounded box-border pb-5 pl-5">
+                <h1 className="font-bold text-3xl text-center">
+                    {messages["page-header"]}
                 </h1>
-                <h2 className="text-md font-semibold">
-                    Find Us in {messages.address}
+                <h2 className="text-2xl text-center">
+                    {messages["page-header2"]} {messages.address}
                 </h2>
-                <div className="pt-4">
-                    <p className="text-sm">
-                        <div className="font-semibold">Hours of Operation</div> 
-                        {messages["hours-of-operation"]}
-                    </p>
-                </div>
+                <div className=" grid mg:grid-cols-2 lg:grid-cols-2 md:gap-3 lg:gap-3">
+                
+                    <div className="mt-4 mb-4 box-border rounded bg-green-500">
+                        <p className="p-3">
+                            <div className="font-bold text-2xl text-center">Hours of Operation*</div> 
+                            <div className="pt-2 font-semibold text-center text-xl">Monday Through Friday</div> 
+                            <div className="text-center text-xl">{messages["hours-of-operation"]["mon-fri"]}</div> 
 
-                <div className="pt-4">
-                    <p className="text-sm">
-                        <div className="font-semibold">Contact Us</div> 
-                        <div className="pb-2">
-                            Email: {messages["contact-info"].email} 
+                            <div className="pt-2 font-semibold text-center text-xl">Saturday</div> 
+                            <div className="text-center text-xl">{messages["hours-of-operation"]["saturday"]}</div>
+
+                            <div className="pt-2 font-semibold text-center text-xl">Sunday</div> 
+                            <div className="text-center text-xl">{messages["hours-of-operation"]["sunday"]}</div> 
+                            
+                            <div className="text-center text-lg">* {messages["hours-of-operation"]["exception"]}</div>
+                        </p>
+                    </div>
+
+                    <div className="mt-4 mb-4 box-border rounded bg-amber-500">
+                        <div className="p-4">
+                            <div className="font-bold text-2xl text-center">Contact Us</div>
+                            <h2 className="text-xl text-center">
+                                {messages["page-header3"]}
+                            </h2>
+                            <div className="pb-2 flex gap-1">
+                                <Image src='/mail.svg' width={20} height={20} alt="Email"/> 
+                                <p className="font-semibold">{messages["contact-info"].email}</p>
+                            </div>
+                            <div className="pb-2 flex gap-1">
+                                <Image src='/phone-call.svg' width={20} height={20} alt="Phone Call"/> 
+                                <p className="font-semibold">{messages["contact-info"]["phone-call"]}</p>
+                            </div>
+                            <div className="flex gap-1">
+                                <Image src='/phone-text.svg' width={20} height={20} alt="Phone Text"/>
+                                <p className="font-semibold">{messages["contact-info"]["phone-text"]}</p>
+                            </div>
                         </div>
-                        <div className="pb-2">
-                            Call: {messages["contact-info"]["phone-call"]}
-                        </div>
-                        <div>
-                            Text: {messages["contact-info"]["phone-text"]}
-                        </div>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -39,8 +39,8 @@ export default function Home() {
                   {messages.offeredServices.fourthSer}
                 </p>
               </div>
-              <div className="rounded box-border bg-slate-50">
-                <p>Image on this side</p>
+              <div className="rounded box-border hover:bg-slate-50 pl-5">
+                <Image src='/mail.svg' width={300} height={300} alt="Email"/>
               </div>
             </div>  
           </div>

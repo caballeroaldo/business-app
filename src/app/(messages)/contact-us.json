@@ -1,10 +1,17 @@
 {
-    "page": "Ready to See Us?",
+    "page-header": "Ready to See Us?",
+    "page-header2": "Find Us in",
+    "page-header3": "We're Open and Here to Help",
     "contact-info": {
         "phone-call": "(408)272-8597",
         "phone-text": "(408)272-8597 Might be Different for Textellent",
         "email": "mgprotax@gmail.com"
     },
     "address": "San Jose, CA",
-    "hours-of-operation": "Monday Through Friday 10am-5pm"
+    "hours-of-operation": {
+        "mon-fri": "10am-6pm",
+        "saturday": "10am-5pm",
+        "sunday": "CLOSED",
+        "exception": "Subject to Change during Tax Preparing Season"
+    } 
 }
