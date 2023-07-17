@@ -18,10 +18,10 @@ const Header = () => {
                             </span>
                         </Link>
                     </div>
-                    <div className="md:float-left md:contents">
+                    <div className="float-left contents">
                         {links.map((link) => (
                             <Link key={link.slug} href={`/${link.slug}`}>
-                                <span className="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
+                                <span className="float-right mt-2 align-middle ml-4 font-semibold cursor-pointer text-xl">
                                     {link.name}
                                 </span>
                             </Link>

@@ -12,16 +12,16 @@ const ContactUs = () => {
 
     return (
         <div className="container mx-auto">
-            <div className="rounded box-border pb-5 pl-5">
+            <div className="rounded box-border pr-5 pl-5">
                 <h1 className="font-bold text-3xl text-center">
                     {messages["page-header"]}
                 </h1>
                 <h2 className="text-2xl text-center">
                     {messages["page-header2"]} {messages.address}
                 </h2>
-                <div className=" grid mg:grid-cols-2 lg:grid-cols-2 md:gap-3 lg:gap-3">
+                <div className="grid md:grid-cols-2 md:gap-4">
                 
-                    <div className="mt-4 mb-4 box-border rounded bg-green-500">
+                    <div className="md:mt-4 md:mb-4 mt-4 mb-2 box-border rounded-lg bg-amber-300">
                         <p className="p-3">
                             <div className="font-bold text-2xl text-center">Hours of Operation*</div> 
                             <div className="pt-2 font-semibold text-center text-xl">Monday Through Friday</div> 
@@ -37,7 +37,7 @@ const ContactUs = () => {
                         </p>
                     </div>
 
-                    <div className="mt-4 mb-4 box-border rounded bg-amber-500">
+                    <div className="md:mt-4 md:mb-4 mt-2 box-border rounded-lg bg-stone-600/50">
                         <div className="p-4">
                             <div className="font-bold text-2xl text-center">Contact Us</div>
                             <h2 className="text-xl text-center">

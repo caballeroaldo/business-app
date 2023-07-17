@@ -18,7 +18,7 @@ const Footer = () => {
                             </span>
                         </Link>
                     </div>
-                    <div className="md:float-left md:contents">
+                    <div className="hidden md:contents">
                         {links.map((link) => (
                             <Link key={link.slug} href={`/${link.slug}`}>
                                 <span className="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
