@@ -21,7 +21,7 @@ const ContactUs = () => {
                 </h2>
                 <div className="grid md:grid-cols-2 md:gap-4">
                 
-                    <div className="md:mt-4 md:mb-4 mt-4 mb-2 box-border rounded-lg bg-amber-300">
+                    <div className="md:mt-4 md:mb-4 mt-4 mb-2 box-border rounded-lg bg-amber-300/75">
                         <p className="p-3">
                             <div className="font-bold text-2xl text-center">Hours of Operation*</div> 
                             <div className="pt-2 font-semibold text-center text-xl">Monday Through Friday</div> 
@@ -37,7 +37,7 @@ const ContactUs = () => {
                         </p>
                     </div>
 
-                    <div className="md:mt-4 md:mb-4 mt-2 box-border rounded-lg bg-stone-600/50">
+                    <div className="md:mt-4 md:mb-4 mt-2 box-border rounded-lg bg-emerald-600/50">
                         <div className="p-4">
                             <div className="font-bold text-2xl text-center">Contact Us</div>
                             <h2 className="text-xl text-center">

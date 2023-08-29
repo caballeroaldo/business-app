@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <div className="flex items-center justify-between p-24">
-        <body className="h-screen bg-gradient-to-b from-green-200 to-amber-400">
+        <body className="h-screen bg-green-200/40">
           <Header/>
           {children}
           <Footer/>
